@@ -1,0 +1,52 @@
+Class persona{
+   Int edad;
+   String nombre;
+   Int nombre;
+   Public int getEdad(){
+     Return this.edad;
+} 
+
+
+Públic void setEdad(int Edad){
+This.edad=edad;
+} 
+
+Públic String getNombre(){
+   Return this.nombre;
+} 
+
+Públic int getTelefono(){
+   Return this.telefono;
+} 
+
+Públic void setTelefono(int telefono){
+This.telefono=telefono;
+   } 
+
+} 
+
+
+Class cliente extend persona{
+   Int credito;
+Public int getCredito() {
+   Return this.credito;
+} 
+Públic void setCredito(int credito){
+   This.credito= credito;
+} 
+} 
+
+
+Class trabajador extends persona{
+  Int salario;
+Public int getSalario(){
+  Return this.salario;
+} 
+Públic void setSalario(int salario){
+This.salario=salario;
+} 
+} 
+
+
+
+
